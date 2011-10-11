@@ -1,0 +1,10 @@
+1) install requirements.pip 
+2) run mock service: python service_mock.py
+3) run consumer: python consumer.py
+4) send an order: python send.py
+
+This implementation doesn't include:
+1) handling messages by consumer
+2) internal consumer looking for status change messages from the consumer
+3) tasks timeout and rerouting
+4) transport history/statistics
